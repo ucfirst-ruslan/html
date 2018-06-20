@@ -1,0 +1,70 @@
+/*
+reset.css
+normalise.css
+*/
+@import url ("reset.css");
+* {
+	-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0; 
+  }
+a {
+	text-decoration: none; }
+body {
+	font: 13px Arial, Helvetica, sans-serif;
+	
+}
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+nav {
+	background-color: rgb(35, 45, 59);
+	height: 77px;
+	padding: 0 5px;
+}
+.logo {
+	padding: 27px 0;
+	float: left;
+}
+.nav-menu {
+	padding: 27px 5px 0 0;
+    font-size: 13px;
+}
+.nav-menu ul {
+	display: table;
+	float:right;
+}
+.nav-menu li{
+	display: table-cell;
+	text-align: center;
+	padding: 0 22px;
+}
+.nav-menu li a {
+	color: #6b6b6b;
+}
+.nav-menu li a .active {
+	color: #fff;
+}
+
+.button{
+	height: 44px;
+	border-radius: 3px;
+	padding: 14px 17px;
+	border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+}
+.button-nav {
+	float:right;
+    background: rgb(163, 211, 156);
+    margin-top: 15px;
+    font-weight: 700;
+}
+

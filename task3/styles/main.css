@@ -147,6 +147,9 @@ nav {
   background: #1f6e6a;
   display: inline-block;
   margin: 0 6px; }
+  .btn-slider-footer li a {
+	cursor: pointer;
+  }
   .btn-slider-footer li.active {
     background: #3e948f; }
 

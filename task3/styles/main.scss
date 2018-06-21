@@ -168,6 +168,9 @@ nav {
 	background: #1f6e6a;
 	display: inline-block;
 	margin: 0 6px;
+	& a {
+	cursor: pointer;
+	}
 	&.active {
 		background: #3e948f;
 	}

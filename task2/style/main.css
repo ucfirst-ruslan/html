@@ -21,7 +21,6 @@ a {
   text-decoration: none; }
 
 #global-wrap {
-  width: 764px;
   background: #fff url("../img/header.jpg") no-repeat center top;
   margin: 0 auto;
   padding: 0 8px; }
@@ -56,13 +55,10 @@ a {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c612', endColorstr='#00b100',GradientType=0 ); }
 
 .global-menu ul {
-  display: table;
-  table-layout: fixed;
   width: 100%;
   padding: 11px 0; }
 
 .global-menu li {
-  display: table-cell;
   text-align: center;
   color: #fff;
   font-size: 16px;
@@ -156,3 +152,34 @@ footer {
   footer div {
     color: #fff;
     text-align: center; }
+
+@media (max-width: 677px) {
+	#global-wrap {
+		max-width: 100%;
+		background-size: 100%;
+	}
+}
+@media (min-width: 678px) and (max-width: 979px) {
+	#global-wrap {
+		max-width: 764px;
+	}
+	.global-menu ul {
+	  display: table;
+	  table-layout: fixed;
+	}
+	.global-menu li {
+		display: table-cell;
+	}
+}
+@media (min-width: 980px) {
+	#global-wrap {
+		max-width: 764px;
+	}
+	.global-menu ul {
+	  display: table;
+	  table-layout: fixed;
+	}
+	.global-menu li {
+		display: table-cell;
+	}
+}

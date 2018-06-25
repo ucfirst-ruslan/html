@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title> </title>
-		<link href="styles/reset.css" rel="stylesheet"  />
-		<link href="styles/main.css" rel="stylesheet"  />
+		<title>Orange site</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link href="styles/reset.css" rel="stylesheet" />
+		<link href="styles/main.css" rel="stylesheet" />
+
+
 	</head>
 	
 	<body>
@@ -16,8 +20,20 @@
 					<a href="#">+Sign Up</a>
 				</div>
 
+
+				
+				
+				<label for="id-show-menu" class="show-menu">
+					<div class="nav-icon">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</label>
+				<input type="checkbox" id="id-show-menu" class="checkbox-menu" role="button">
+				
 				<div class="nav-menu">
-					<ul>
+					<ul class="nav-items">
 						<li><a class="active" href="#">Compare Hosting Providers</a></li>
 						<li><a href="#">About</a></li>
 						<li><a href="#">How it Works</a></li>
@@ -47,7 +63,33 @@
 					</div>
 				</div>
 				
-					<!-- Выпадающее меню -->
+				<!-- Выпадающее меню -->
+				<form action="index.php" method="post">
+					<div class="list disk">
+						<ul>
+							<li><a class="disk" href="javascript:void(0);">Diskspace Amount</a>
+					            <ul>
+					              <li><a href="#">500 MB</a></li>
+					              <li><a href="#">1000 MB</a></li>
+					              <li><a href="#">5 GB</a></li>
+					            </ul>        
+					        </li>
+				    	</ul>
+					</div>
+					<div class="list cloud">
+						<ul>
+							<li><a class="cloud" href="javascript:void(0);">Operating System</a>
+					            <ul>
+					              <li><a href="#">OS X</a></li>
+					              <li><a href="#">Linux</a></li>
+					              <li><a href="#">Must Die OS</a></li>
+					            </ul>        
+					        </li>
+				    	</ul>
+					</div>
+					<button class="btn btn-main">+ Get a quote Now</button>
+				</form>
+
 				
 			</div>
 		</div>
@@ -58,7 +100,7 @@
 					<h2>We use 100% Real Clouds </h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lacus felis, sagittis id hendrerit nec, facilisis non ligula. Nullam eget imperdiet augue. Suspendisse lacus nulla, tempor eget porta a, accumsan at erat. Etiam quis sem orci.</p>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lacus felis, sagittis id hendrerit nec, facilisis non ligula. Nullam eget imperdiet augue. Suspendisse lacus nulla, tempor eget porta a, accumsan at erat. Etiam quis sem orci. Praesent elit sem, volutpat id malesuada a, ornare non turpis. Aliquam felis ante, condimentum eu tempor eu, dapibus ut lacus. Vivamus egestas, sem ut semper imperdiet, felis nulla aliquet purus, tincidunt auctor tortor sapien vitae dolor.</p> 
-					<p>Nam nunc lacus, ultrices eget interdum id, pharetra at sapien. Nunc id lorem at nibh consectetur laoreet. Pellentesque sollicitudin diam mi, vel sodales orci. Nunc molestie pretium blandit. Suspendisse non eros non quam semper egestas ac in sem. Aenean blandit tincidunt sapien, quis ornare dui pharetra quis. Proin nec sem at felis porttitor convallis. Praesent consequat adipiscing orci, at sollicitudin purus consectetur luctus.</p>
+					<p>Nam nunc lacus, ultrices eget interdum id, pharetra at sapien. Nunc id lorem at nibh consectetur laoreet. Pellentesque sollicitudin diam mi, vel sodales orci. Nunc molestie pretium blandit. Suspendisse non eros non quam semper egestas ac in sem. Aenean blandit tincidunt sapien, quis ornare dui pharetra quis. Proin nec sem at felis porttitor convallis. Praesent consequat adipiscing orci, at sollicitudin purus.</p>
 				</div>
 				<div class="description-col-2">
 					<h2>We don't hurt kittens</h2>
